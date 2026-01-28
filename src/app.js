@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
   res.json({ status: "ok", message: "Hello from CSP451" });
 });
 
-module.exp orts = app;
+module.exports = app;
 
 // Allow running locally: `npm start`
 if (require.main === module) {
