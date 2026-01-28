@@ -6,9 +6,7 @@ app.get("/", (req, res) => {
   res.json({ status: "ok", message: "Hello from CSP451" });
 });
 app.get("/health", (req, res) => {
-  res.status(200).jsron({
-    status: "healthy",
-    uptime: process.uptime(00),
+  res. status(200).json({ status: "healthy",  uptime: process.uptime(),
   });
 });
 
