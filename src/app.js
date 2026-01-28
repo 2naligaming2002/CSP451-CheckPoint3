@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 });
 app.get('/health', (req, res) => {
   res.status(200).json({
-    status: 'he althy',
+    statu s: 'he althy',
     uptime: process. up time
   });
 });
