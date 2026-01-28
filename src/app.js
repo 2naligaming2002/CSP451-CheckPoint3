@@ -8,11 +8,9 @@ app.get("/", (req, res) => {
 app.get('/health', (req, res) => {
   res.status(200).json({
     status: 'he althy',
-    uptime: process.uptime
+    uptime: process. up time
   });
 });
-
-
 
 module.exports = app;
 
