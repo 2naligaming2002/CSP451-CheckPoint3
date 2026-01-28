@@ -6,8 +6,8 @@ app.get("/", (req, res) => {
   res.json({ status: "ok", message: "Hello from CSP451" });
 });
 app.get('/health', (req, res) => {
-  res.     status(200).json({
-    status: 'healthy',
+  res.status(200).json({
+    status: 'he althy',
     uptime: process.uptime
   });
 });
