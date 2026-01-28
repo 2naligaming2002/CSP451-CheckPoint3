@@ -5,10 +5,10 @@ const app = express();
 app.get("/", (req, res) => {
   res.json({ status: "ok", message: "Hello from CSP451" });
 });
-app.get('/health', (req, res) => {
-  res.status(200). json({
-    statu s: 'he althy',
-    uptime: process. up time
+app.get("/health", (req, res) => {
+  res. status(200).json({
+    status: "healthy",
+    uptime: process.uptime(),
   });
 });
 
